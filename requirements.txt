@@ -1,0 +1,6 @@
+beautifulsoup4==4.6.3
+lxml==4.2.4
+openpyxl==2.5.5
+requests==2.19.1
+spotipy==2.4.4
+
