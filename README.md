@@ -17,3 +17,4 @@ Requirements:
 - openpyxl==2.5.5
 - requests==2.19.1
 - spotipy==2.4.4
+- python-dateutil==2.7.3
