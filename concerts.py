@@ -28,6 +28,24 @@ import copy
 import json
 import csv
 import openpyxl
+def dumpCsvToExcel():
+
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = 'Cheap'
+    with open(cheapcsv,'r') as f:
+        for row in f:
+            ws.append(row.split(',')[:-2])
+
+    ws = wb.create_sheet('Expensive')
+    with open(expcsv,'r') as f:
+        for row in f:
+            ws.append(row.split(',')[:-2])
+
+    datefilter = openpyxl.worksheet.filters.CustomFilter('greaterThanOrEqual',datetime.now().strftime('%m-%d-%Y'))
+
+    wb.save('concerts.xlsx')
+
 
 def getShowsFromLink(link):
     shows = []
@@ -76,7 +94,7 @@ def getShows():
 
 
 def addShowsToPlaylist(shows,playlist_id):
-    text = "artist,price,date,venue,songid1,songid2\n"
+    text = ""
     counter = 0
     for show in shows:
         artistname = show['artist']
@@ -91,7 +109,9 @@ def addShowsToPlaylist(shows,playlist_id):
                     entry = copy.deepcopy(show)
                     entry['date'] = entry['date'].strftime('%m-%d-%Y')
                     entry['songs'] = ','.join(addsongs)
+                    entry['deleted'] = False
                     e = list(entry.values())
+                    e = [str(x) for x in e]
                     text += "{}\n".format(','.join(e))
                     counter += 1
                     break
@@ -107,16 +127,19 @@ def addShowsToPlaylist(shows,playlist_id):
     return text
 
 def deletePassed(showlist,playlist_id):
+    delsongs = []
     for row in showlist:
         date = dateparser.parse(row['date'])
         now = datetime.now()
         if date < now:
             if abs(date-now) > timedelta(days=1):
-                delsongs = [row['songid1'],row['songid2']]
-                sp.user_playlist_remove_all_occurrences_of_tracks(creds['username'],playlist_id,delsongs)
+                delsongs.extend([row['songid1'],row['songid2']])
                 print('Deleting {}'.format(row['artist']))
-                showlist.remove(row)
-                
+                row['deleted'] = True
+                #showlist.remove(row)
+
+    sp.user_playlist_remove_all_occurrences_of_tracks(creds['username'],playlist_id,delsongs)
+
 
 def isDupe(row,otherlist):
     for row2 in otherlist:
@@ -127,13 +150,20 @@ def isDupe(row,otherlist):
 
             
 def removeDupes():
-    pdb.set_trace()
     global cheapshows
     global expensiveshows
     
     cheapshows = [x for x in cheapshows if not isDupe(x,oldcheap)]
     expensiveshows = [x for x in expensiveshows if not isDupe(x,oldexp)]
 
+def getOldText(showlist):
+    text = 'artist,price,date,venue,songid1,songid2,deleted\n'
+    for show in showlist:
+        e = list(show.values())
+        e = [str(x) for x in e]
+        text += "{}\n".format(','.join(e))
+
+    return text
 
         
         
@@ -158,41 +188,36 @@ with open(cheapcsv,'r') as f:
     reader = csv.DictReader(f)
     oldcheap = []
     for row in reader:
-        oldcheap.append(row)
+        if row['deleted'].lower() == 'false':
+            oldcheap.append(row)
 
 with open(expcsv,'r') as f:
     reader = csv.DictReader(f)
     oldexp = []
     for row in reader:
-        oldexp.append(row)
+        if row['deleted'].lower() =='false':
+            oldexp.append(row)
 
 deletePassed(oldcheap,cheapplay)
 deletePassed(oldexp,expplay)
 
 getShows()
 removeDupes()
-wb = openpyxl.Workbook()
-ws = wb.active
-ws.title = 'Cheap'
 
-csvtext = addShowsToPlaylist(cheapshows,cheapplay)
-with open(cheapcsv,'a') as f:
-    f.write(csvtext)
+oldtextcheap = getOldText(oldcheap)
+oldtextexp = getOldText(oldexp)
 
 
-csvtext = addShowsToPlaylist(expensiveshows,expplay)
-with open(expcsv,'a') as f:
-    f.write(csvtext)
-
-with open(cheapcsv,'r') as f:
-    for row in f:
-        ws.append(row.split(',')[:-2])
-    
-ws = wb.create_sheet('Expensive')
-with open(expcsv,'r') as f:
-    for row in f:
-        ws.append(row.split(',')[:-2])
-
-wb.save('concerts.xlsx')
+cheapcsvtext = addShowsToPlaylist(cheapshows,cheapplay)
+expcsvtext = addShowsToPlaylist(expensiveshows,expplay)
+with open(cheapcsv,'w') as f:
+    f.write(oldtextcheap)
+    f.write(cheapcsvtext)
 
 
+with open(expcsv,'w') as f:
+    f.write(oldtextexp)
+    f.write(expcsvtext)
+
+
+dumpCsvToExcel()
