@@ -1,35 +1,4 @@
 artist,price,date,venue,songid1,songid2,deleted
-Poppy,$20,11-03-2018,Gothic Theatre,5efvxYn0J1q8iuIZBqpDD7,3ecc8UTM48hMOkqGDnP6I4,True
-Cherub,$26-$60,11-03-2018,Ogden Theatre,44CZRkOxv7UItaAUmh8PgN,1YzIe5I0UNPgPRPxYpe92f,True
-Mountain Man,$23/$25,11-03-2018,Bluebird Theater,34Yfp4CErILcXDkLty1EZa,0lchObWflwC97ZEnY7QVHx,True
-Wild Nothing,$25/$27,11-04-2018,Bluebird Theater,0qCeDj0OwjeJL6K0LuRbz8,63JE1xclq1I0C0WlOEGpYH,True
-Mac Miller,$49.75,11-05-2018,Fillmore Auditorium,39NDBdU5Xkm5pCFGa5kZtI,5p7GiBZNL1afJJDUrOA6C8,True
-Thundercat,$49.75,11-05-2018,Fillmore Auditorium,5dcZUsgcMW57ju0A379O7c,3KQvcYqWgMnG6MCg1aeXif,True
-Joywave,$24.50,11-06-2018,Gothic Theatre,6IY3cC281mz9q0bViUEldz,5mCprFWOqe0jB96v9RhLBo,True
-Sir Sly,$24.50,11-06-2018,Gothic Theatre,0w4m3Xp4svlIoyL94Zjlyd,17aDyX39gb1iV1ZWvD1ffE,True
-The Heartstring Hunters,$12/$15,11-07-2018,Bluebird Theater,6bcLdbpwMNPLhocEzKHVKU,20XpYZgHYYR46TvEUa4mav,True
-Avenhart,$12/$15,11-07-2018,Bluebird Theater,41fh6lbhcJONHZYJXZsdao,48QF5H2g5h8Eo4Hqafw1dy,True
-The Lonesome Days,$12/$15,11-07-2018,Bluebird Theater,02HdBojbBhvnm3wERO604f,3YGA9badylUTt6272bFkKW,True
-The Reverend Peyton's Big Damn Band,$20,11-08-2018,Bluebird Theater,4CW8LX8ogveTb1CZrFlDv6,0BpCy6DNvTjNgTULJRWFjj,True
-WHY?,TBA,11-08-2018,Gothic Theatre,0Pcolnl2MxmjPSl4ZMSpWc,2wNC44mmKAr9ICB2ySE7vS,True
-Rüfüs Du Sol,$34.75,11-10-2018,Fillmore Auditorium,5DVVw9e4D656vURT3pfnjg,4ADsYu1V5CpFLXNve7iK4Z,True
-Tyler Childers,$23,11-10-2018,Ogden Theatre,2tgQaL85WoRfgEa4hFQgrE,0fbR95FEaJUxiQYaqZZukv,True
-The Menzingers,$25,11-10-2018,Bluebird Theater,1BqJIsOlo8rpm6FJ5N8VtJ,3cnD0uH9C0AY4oxmb84gpc,True
-Cloud Nothings,$18,11-11-2018,Bluebird Theater,0s6JWNtY8xrphq2bve0Ydq,5b9PdT1iD3rKYkhlIPRCy8,True
-Nap Eyes,$18,11-11-2018,Bluebird Theater,5Gda2dF6ew4ORmTL4xaxZT,3rvwOMySfAueAGr2EG4ydu,True
-AJR,$27.50,11-13-2018,Fillmore Auditorium,2HaYSyjZmqhFVviYOakAth,0ftAX4mbuRx6Wr6PvpAIZs,True
-Robert DeLong,$27.50,11-13-2018,Fillmore Auditorium,3ZTVNcirP0VsMcMFIPOYEM,69Pfc2fTVYIxLLFgsFXqjg,True
-Wolves in the Throne Room,$27.50/$32,11-13-2018,Ogden Theatre,7p0amXrQgyM53s3z9NfDty,3REwvRwEnRs0SSm1p7EyFq,True
-Behemoth,$27.50/$32,11-13-2018,Ogden Theatre,5ImggJADPMSEDyiXhlDdTa,4JynkH6Oa9cJ0zUTzYA2UP,True
-At the Gates,$27.50/$32,11-13-2018,Ogden Theatre,2Vy4z1ZUN7RvN7syWI2yef,0coGjkTRyxHvuIOIYsvV5H,True
-Madisen Ward and the Mama Bear,$15/$17,11-13-2018,Bluebird Theater,0OFphVYp63bZEa3101pWLs,5r70kkAOKzkIxEracwnpr1,True
-Good Charlotte,$36/$40,11-14-2018,Ogden Theatre,0BRHnOFm6sjxN1i9LJrUDu,2g2a5kDeZexbUTD8abcvm6,True
-CAAMP,$15,11-14-2018,Bluebird Theater,3HAgxyWGeJtIVabS2mTREt,0jX7GLf5pVGZpchy64sluA,True
-Rubblebucket,$19.50-$21.50,11-14-2018,Gothic Theatre,3gq7RBia7mWquzTSQWtIEt,0b1WDEm8pNMoSGa3Je0sqW,True
-CAAMP,$15/$18,11-15-2018,Bluebird Theater,3HAgxyWGeJtIVabS2mTREt,0jX7GLf5pVGZpchy64sluA,True
-Claudio Simonetti's Goblin,$29.75/$35,11-15-2018,Gothic Theatre,2HKim9tPFu8sJFueJBURjq,1WcL7CSo57T7O9mgetwQhi,True
-The Motet,$25-$35,11-16-2018,Ogden Theatre,0DrYHTyF46ANxvg0Erviwn,2vidqYZ37seENVZSqQXTsR,True
-Every Time I Die,$25,11-17-2018,Bluebird Theater,7prBRHezRILw1WbJJTQi2w,6wqBUUWSTn39vEXVM67avV,True
 Shallou,$14/$16,11-20-2018,Bluebird Theater,6QcrReLyoun4xrPVsZ5OJE,3uSwz1gv799BQhkqgIgfSz,FALSE
 All Them Witches,$17/$20,11-21-2018,Bluebird Theater,2EvUjCWg5zeaeKxGeOaHPh,3N02rdKYcUq6nabDpCRv7v,FALSE
 Handsome Jack,$17/$20,11-21-2018,Bluebird Theater,3mKdULPjxqnWjbAEbzQVMo,1VpC1WWTZFd5BUIoiUCBNg,FALSE
@@ -64,8 +33,6 @@ Jon Stickley Trio,$35-$50,12-30-2018,Ogden Theatre,7kehEpXzKvNE0sx7Rv3YS6,6GNZGW
 The Infamous Stringdusters,$35-$50,12-30-2018,Ogden Theatre,2FQSGNFGue5t8M4q0NyB3J,0VWLyUPivk937OzZC4KjZA,FALSE
 The Drunken Hearts,$35-$50,12-30-2018,Ogden Theatre,1hVUh2cLJTWtqScalFrqPO,1oIE7Hm1HG4R2zWs5BNp6H,FALSE
 James Bay,$35,03-22-2019,Fillmore Auditorium,13HVjjWUZFaWilh2QUJKsP,4tYokojnBEp5pBWO7wTRPA,FALSE
-Every Time I Die,$25,11-16-2018,Bluebird Theater,7prBRHezRILw1WbJJTQi2w,6wqBUUWSTn39vEXVM67avV,True
-Tab Benoit,$22.75,11-17-2018,Gothic Theatre,3pVGNOtcFTx2Lo1ZxjwT2v,0Wv8SrR4kycxh3GIpl2adV,True
 Julien Baker,$23-$25,11-19-2018,Ogden Theatre,46Vogr8UvzcVPAgDvBpDIr,2jGAR1n5D2z8WXYLsmjE4P,FALSE
 Lucy Dacus,$23-$25,11-19-2018,Ogden Theatre,0lp0bQqzyLmNNHHFYRaaJf,2jGAR1n5D2z8WXYLsmjE4P,FALSE
 Phoebe Bridgers,$23-$25,11-19-2018,Ogden Theatre,0jqFM7E9z1PLYtPVCuFwAi,6LxcPUqx6noURdA5qc4BAT,FALSE
@@ -75,25 +42,11 @@ Caye,$18,12-04-2018,Bluebird Theater,6tRa3SE3kbFPNcZPmBzOFA,6B0fJdJscs6PV9IhoVPI
 The Wood Brothers,$36.50,12-06-2018,Ogden Theatre,26uHwSHlaK5mskSMhbRod3,0MJ5Qltavj6AWdxjheHlSI,FALSE
 Hippo Campus,$26-$28,01-26-2019,Ogden Theatre,6iCJCZqDJjmBxt07Oid6FI,6CES1554HcWMIVroJfmmBm,FALSE
 Bring Me the Horizon,$45,02-11-2019,Fillmore Auditorium,7dRj3sTBYkNbEx5kdNHriv,5tYqrn7cItYhDGDLHt8XuH,FALSE
-Brandon Rogers,$30-$60,11-04-2018,Gothic Theatre,5eHhHewG2Cao8QsT8oxesc,5XqutZb39vIElrj51nYIHk,True
-Movements,$25,11-06-2018,Ogden Theatre,6AgtouHw1KrKy1PsoLjY3o,4pdPJQqQNWuDQ6Swl2mW2u,True
-Citizen,$25,11-06-2018,Ogden Theatre,6PwDTjmJXS2uMZDrjRZAXK,0D0G8watmsl7du6uoYwDMI,True
-Turnover,$25,11-06-2018,Ogden Theatre,2HnMhvOVA1FK8C61nMhJEj,2QRk4N7GObZRGyhKjUHZhP,True
-Blank Range,$23-$26,11-10-2018,Ogden Theatre,14dckG9NFhZP7S5jyWdEg8,4nLvPDOqcMHSF94UEN1Mp0,True
-Aaron Lewis,$35,11-16-2018,Fillmore Auditorium,77A7dWpSxVoauUbJn83Oj3,46ReZjLTWpWQo6U7g3m2Qg,True
 Said the Sky,$25-$27,12-08-2018,Ogden Theatre,04amRUbvDaUMmE9U4Vs48E,6BDLcvvtyJD2vnXRDi1IjQ,False
 Nathaniel Rateliff & the Night Sweats,$47.50,12-19-2018,Ogden Theatre,6jwsbxD1nvTc4UGLgRoCa6,1hWQvA6oGVJ2mAVsZ59AaV,False
 Campdogzz,$20,01-18-2019,Bluebird Theater,3WwGTjkbZTQqyirs5L6fGo,0BEMFrT0sin0MNAFWW50H7,False
 Cursive,$20,01-18-2019,Bluebird Theater,3hwbRqQLezmv5Yo2LITSnb,0MJdJaOstnyoXEMMnLReun,False
 Colter Wall,$25-$30,02-15-2019,Ogden Theatre,3Ozx6IrGdoQyAworJzvBDE,7hlA8gMMz6jSp91Twsnuv3,False
-Saints of Valory,$15/$17,11-05-2018,Bluebird Theater,7HJ8Dl1ndxswMJrIbMboMP,2tK144K4ZW8K6nBBZ7SOTV,True
-Ice Cube,$44.75,11-08-2018,Fillmore Auditorium,2qOm7ukLyHUXWyR4ZWLwxA,3NGT0Td7H4Is1qrlDQJxma,True
-Don Broco,$49.50,11-09-2018,Fillmore Auditorium,3qKle2dRbjUW5kt9XKLsr0,2aaxYJ4w3oPwdkT1MHcMEr,True
-Mike Shinoda,$49.50,11-09-2018,Fillmore Auditorium,5Gi8lLH3edcexP99srU1Nl,7qHPOydWy2c3iKsibA31ch,True
-The Dose,$36/$40,11-14-2018,Ogden Theatre,7ex2uAYoJt4tEWjxkVZx1t,3a3519Gv1EB6quxdNlLydD,True
-Knuckle Puck,$36/$40,11-14-2018,Ogden Theatre,2MyUIH6eOOfzgxAEw8qz5R,1hWlZxzZWiXRkQy7ywSAmh,True
-Sleeping with Sirens,$36/$40,11-14-2018,Ogden Theatre,3ouugfdFz6exFXUxu7wRvD,7la8N6YLMUDAXl2iAEe9Sy,True
-Magic Giant,$20-$35,11-16-2018,Gothic Theatre,2TV9fAIDDJ3dMwJCj1a5pc,49YNXgHWiNSxz2wGtXCVZ7,True
 Ryan Montbleau,$20/$25,11-18-2018,Bluebird Theater,79ms40oOzof3LMyrrXDXtJ,2P7d62DM2Q1A9i6kkc4rgl,False
 Justin Martin,$25.75-$30.75,11-21-2018,Ogden Theatre,4E8XEz8KIuQ1iJJAMgCcXV,6kfokZl9BuXPOtvNMsclV2,False
 Iggy Azalea,$49.75,11-23-2018,Fillmore Auditorium,5mu1uv8RmzDkF8foePK5qa,3oiMJQAWVaxSubJ7b2VUtX,False
@@ -154,7 +107,7 @@ Living Light,$22,01-12-2019,Ogden Theatre,7HPiXgIdDja6rsFatfu7CX,4KcKHkcGiozx2HF
 Wild Child,$20/$22,01-16-2019,Bluebird Theater,1kYeZHJpBpbGQPlF9jznCs,0alXWwTcr1reJRYkhjauN1,False
 Thursday,$35/$40,01-19-2019,Bluebird Theater,4pBfU4RSvH0NzjEr2OgjWn,43CG5O08Tj6ODmSWQ9pfvF,False
 RJD2,$15-$20,01-20-2019,Ogden Theatre,5Nn2Dj7OQsGL6pgQ9iIzPp,6gifrVamdnrYxkXPV6ul0k,False
-Xavier Omär,$25,01-23-2019,Gothic Theatre,0DQQRJ4sR3pxwom9L7D7QR,2zIkPM6r0yEjWt18qG3jP3,False
+Xavier OmÃ¤r,$25,01-23-2019,Gothic Theatre,0DQQRJ4sR3pxwom9L7D7QR,2zIkPM6r0yEjWt18qG3jP3,False
 NAO,$25,01-23-2019,Gothic Theatre,2mssuAa5xshIx2c06p1c2F,0VXinRGqxFxr1BKrOrC9pP,False
 Rastasaurus,$25.75 - $29.75,01-25-2019,Gothic Theatre,6b5bvZpgfGRJmvm7vk1OTp,2IIkvbaAHDH9YUHPsHeB1Q,False
 The Wailers,$25.75 - $29.75,01-25-2019,Gothic Theatre,4MGa3uO14yw16f8IPKnLZ6,2Mw8xQJpIDAgrktDXEqxCs,False
@@ -200,7 +153,7 @@ Mandolin Orange,$25-$30,03-16-2019,Ogden Theatre,4muAGMNipTEtIoYfMa9QL0,4TcTtWG8
 Bronze Radio Return,$15,03-19-2019,Bluebird Theater,4dI4oscajpdtjpg2dP1x28,1exs6EE3ll55TUNkX3PZAA,False
 Mt. Joy,$20,03-19-2019,Gothic Theatre,0i5QVxsK3IvEDbUjTA64Li,7412fpVfB2PSSb1nENQczC,False
 July Talk,$36,03-20-2019,Fillmore Auditorium,7IfskrsLpZhR3IdFqcLPzB,2M3TZmN0KR5Etd4GTSsn1H,False
-Zoé,$36,03-20-2019,Fillmore Auditorium,2VhJ4nrPorAbySEgO4V0BS,1nULBrlzWatdcjA2ZctIMv,False
+ZoÃ©,$36,03-20-2019,Fillmore Auditorium,2VhJ4nrPorAbySEgO4V0BS,1nULBrlzWatdcjA2ZctIMv,False
 Metric,$36,03-20-2019,Fillmore Auditorium,1z4xjDLLWJgG48Bn8OCxZv,72hSmnleYTiiOo23q8ZJIS,False
 Graveyard,$29.50,03-23-2019,Ogden Theatre,02Jh0orUaFfiVEDt01BolR,7vKWPZV9iy5Q9o27bgLtC2,False
 Uncle Acid & The Deadbeats,$29.50,03-23-2019,Ogden Theatre,2dG9WPQ9890aU2MfpJBnde,3REMLOvLYY2a0qpFZ68Jby,False
@@ -230,7 +183,6 @@ Too Many Zooz,$26.75,01-26-2019,Fillmore Auditorium,5ElvxQOgTTUTjVfa1uhhFv,4LYli
 Chris Karns,$26.75,01-26-2019,Fillmore Auditorium,5B9YEwmrxWRpPeMttmHClH,56sjVjtDrztoR2yaB7nTIT,False
 The Hip Abduction,$26.75,01-26-2019,Fillmore Auditorium,4oOIqg7LHDROo5w9OXV2Du,7IPRKO72vnUSWGeJGV5rx6,False
 SunSquabi,$26.75,01-26-2019,Fillmore Auditorium,35Dkvt4pKDEVrxtT7U8lyx,0PixrKu6hDBnpMEWnWaJg9,False
-Now, Now,$26-$28,01-26-2019,Ogden Theatre,4pk6I8l87QhPwvWT5Wan0Q,3speBfGPCck1oe47EBPnhh,False
 YG,$39.95,01-30-2019,Ogden Theatre,0ZNrc4kNeQYD9koZ3KvCsy,3i1B1PnsfnOQPGVIzhf1lr,False
 Cycles,$12-$15,02-02-2019,Bluebird Theater,3vpSepOYLB6Of8MzTVACV3,5WjIlePjK7I4OgB904r0GN,False
 Flamingosis,$12-$20,02-08-2019,Gothic Theatre,6i3i8Mm2ul9SdYxPWVnoDp,4hokeG0HFC4tuatP7SVaJI,False
@@ -259,3 +211,4 @@ Jared & the Mill,$15/$18,06-01-2019,Bluebird Theater,5gvZPXI9AWUYhNG5t97It0,2hRB
 LANY,TBA,06-10-2019,Fillmore Auditorium,0Eqg0CQ7bK3RQIMPw1A7pl,7GbAp0HKPQW7WnFJAzMoRk,False
 Jon Bellion,$45,07-21-2019,Fillmore Auditorium,0SuLAslEMFZAXf0SwY7syi,4FUDWkguOUVpLRAVn5C20z,False
 Hot Water Music,$35,07-26-2019,Bluebird Theater,48KXO9gBcRTrzWVQx1ET3r,0bEwPQwwgFyCvsqLkVOWhh,False
+Now, Now,$26-$28,01-26-2019,Ogden Theatre,4pk6I8l87QhPwvWT5Wan0Q,3speBfGPCck1oe47EBPnhh,False

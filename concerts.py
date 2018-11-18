@@ -138,8 +138,6 @@ def deletePassed(showlist,playlist_id):
                 row['deleted'] = True
                 #showlist.remove(row)
 
-    import pdb
-    pdb.set_trace()
     delsonglistlist = [delsongs[x*90:(x*90)+90] for x in range(int(len(delsongs)/90)+1)]
 
     
@@ -190,14 +188,14 @@ cheapplay = creds['cheap_playlist_id']
 cheapcsv = 'cheap.csv'
 expcsv = 'exp.csv'
 
-with open(cheapcsv,'r') as f:
+with open(cheapcsv,'r',encoding="UTF-8") as f:
     reader = csv.DictReader(f)
     oldcheap = []
     for row in reader:
         if row['deleted'].lower() == 'false':
             oldcheap.append(row)
 
-with open(expcsv,'r') as f:
+with open(expcsv,'r',encoding="UTF-8") as f:
     reader = csv.DictReader(f)
     oldexp = []
     for row in reader:
@@ -216,12 +214,12 @@ oldtextexp = getOldText(oldexp)
 
 cheapcsvtext = addShowsToPlaylist(cheapshows,cheapplay)
 expcsvtext = addShowsToPlaylist(expensiveshows,expplay)
-with open(cheapcsv,'w') as f:
+with open(cheapcsv,'w',encoding="UTF-8") as f:
     f.write(oldtextcheap)
     f.write(cheapcsvtext)
 
 
-with open(expcsv,'w') as f:
+with open(expcsv,'w',encoding="UTF-8") as f:
     f.write(oldtextexp)
     f.write(expcsvtext)
 

@@ -1,6 +1,4 @@
 artist,price,date,venue,songid1,songid2,deleted
-Nicki Minaj,$76-$182,11-06-2018,Pepsi Center,3L4GsGLgxpHieVQH86H8bv,1e4rwBPVI32vZtTJu7mJ4J,True
-Future,$76-$182,11-06-2018,Pepsi Center,0VgkVdmE4gld66l8iyGjgx,51rXHuKN8Loc4sUlKPODgH,True
 Los Tigres del Norte,TBA,11-18-2018,Pepsi Center,0tzixmHNQfE6S6SirSToxW,19Tx1GJy2JGJP43yjZUK6u,FALSE
 Alejandro Fernandez,TBA,11-18-2018,Pepsi Center,4NUt1fcnO9aQAELBgXq3Kr,1OJkKHmXsZVKtWlECdpDAe,FALSE
 Twenty One Pilots,TBA,11-19-2018,Pepsi Center,3CRDbSIZ4r5MsZ0YwxuEkn,6cQnrSlTxhHCCiUpKrs7g3,FALSE
@@ -8,7 +6,6 @@ Fleetwood Mac,$69.50-$199.50,12-03-2018,Pepsi Center,0ofHAoxe9vBkTCp2UQIavz,5e9T
 Justin Timberlake,$54-$254.50,01-29-2019,Pepsi Center,1LhMopPAallLeaeNutqbgS,1WkMMavIMc4JZ8cfMmxHkI,FALSE
 Elton John,$59.50-$249.50,02-06-2019,Pepsi Center,3gdewACMIVMEWVbyb8O9sY,2TVxnKdb3tqe1nhQWwwZCO,FALSE
 P!NK,$47.45-$499.95,04-01-2019,Pepsi Center,0Qh38w01QRXK6KHIv0e3hb,4VC5nFbYO4avKksJ9jN4pY,FALSE
-Trans-Siberian Orchestra,$49.50-$79.50,11-17-2018,Pepsi Center,3sBnSBnzpEYKpJYGsAIbup,0O4vuJynWVVdyvoHvZtnk3,True
 Travis Scott,$29.95-$89.95,12-12-2018,Pepsi Center,2xLMifQCjDGFmkHkpNLD9h,7wBJfHzpfI3032CSD7CE2m,FALSE
 Stephen Marley,$54.75-$87.50,08-26-2019,Red Rocks Amphitheatre,7wqkhV9hQtthqmeagXiTOl,5wgy309XNqFkqj8MMDquvj,False
 Rebelution,$54.75-$87.50,08-26-2019,Red Rocks Amphitheatre,0BweE3lWBMXRPWWLtLV5z8,4TyCnstYu6LGrjka5WW6ft,False
@@ -69,6 +66,8 @@ The Infamous Stringdusters,$55.50-$109.50,05-29-2019,Red Rocks Amphitheatre,2FQS
 The Avett Brothers,$68.50-$99.50,07-05-2019,Red Rocks Amphitheatre,7CEV9VwA8XO9wwxTXgYKvY,6XMYnm4OTEysN8blzqiCL9,False
 Lake Street Dive,$68.50-$99.50,07-05-2019,Red Rocks Amphitheatre,7BDbyDs5FUmnh955RABFd7,0jCe45cYIc6NXedmbIKy0Q,False
 Nicole Atkins,$68.50-$99.50,07-05-2019,Red Rocks Amphitheatre,2iGbLTqpJYeH3tMWuQ8I1z,0Bq7F3YMrblsLPZQPZOshD,False
-"Weird Al" Yankovic,$49.95-$90,08-01-2019,Red Rocks Amphitheatre,60R2v9lheAu3lwZwAFxMZK,5r96TaQquRrlo3Ym3ZlSL2,False
+Weird Al Yankovic,$49.95-$90,08-01-2019,Red Rocks Amphitheatre,60R2v9lheAu3lwZwAFxMZK,5r96TaQquRrlo3Ym3ZlSL2,False
 Backstreet Boys,$29-$400,08-08-2019,Pepsi Center,47BBI51FKFwOMlIiX6m8ya,35o9a4iAfLl5jRmqMX9c1D,False
 Old Dominion,$39.95-$65.50,09-11-2019,Red Rocks Amphitheatre,2A69wys3S9uiPSmn6UZWJn,33471tzU1VghDg9zNgGRpz,False
+Weird Al Yankovic,$49.95-$90,08-01-2019,Red Rocks Amphitheatre,60R2v9lheAu3lwZwAFxMZK,5r96TaQquRrlo3Ym3ZlSL2,False
+"Weird Al" Yankovic,$49.95-$90,08-01-2019,Red Rocks Amphitheatre,60R2v9lheAu3lwZwAFxMZK,5r96TaQquRrlo3Ym3ZlSL2,False
