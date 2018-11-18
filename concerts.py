@@ -138,7 +138,13 @@ def deletePassed(showlist,playlist_id):
                 row['deleted'] = True
                 #showlist.remove(row)
 
-    sp.user_playlist_remove_all_occurrences_of_tracks(creds['username'],playlist_id,delsongs)
+    import pdb
+    pdb.set_trace()
+    delsonglistlist = [delsongs[x*90:(x*90)+90] for x in range(int(len(delsongs)/90)+1)]
+
+    
+    for ds in delsonglistlist:
+        sp.user_playlist_remove_all_occurrences_of_tracks(creds['username'],playlist_id,ds)
 
 
 def isDupe(row,otherlist):
