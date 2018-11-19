@@ -29,6 +29,7 @@ import json
 import csv
 import openpyxl
 import itertools
+import traceback
 
 def dumpCsvToExcel():
 
@@ -96,7 +97,7 @@ def getShows():
 
 
 def addShowsToPlaylist(shows,playlist_id,sids):
-    text = ""
+    retval = []
     counter = 0
     for show in shows:
         artistname = show['artist']
@@ -111,16 +112,21 @@ def addShowsToPlaylist(shows,playlist_id,sids):
                         if song in sids:
                             print("Song already in playlist, skipping")
                             break
-                    sp.user_playlist_add_tracks(creds['username'],playlist_id,addsongs)
-                    entry = copy.deepcopy(show)
-                    entry['date'] = entry['date'].strftime('%m-%d-%Y')
-                    entry['songs'] = ','.join(addsongs)
-                    entry['deleted'] = False
-                    e = list(entry.values())
-                    e = [str(x) for x in e]
-                    text += "{}\n".format(','.join(e))
-                    counter += 1
-                    break
+                    try:
+                        sp.user_playlist_add_tracks(creds['username'],playlist_id,addsongs)
+                        entry = copy.deepcopy(show)
+                        entry['date'] = entry['date'].strftime('%m-%d-%Y')
+                        entry['songid1'] = addsongs[0]
+                        entry['songid2'] = addsongs[1]
+                        entry['deleted'] = False
+
+                        retval.append(entry)
+                        counter += 1
+                        break
+                    except Exception as e:
+                        print("Error adding {}".format(entry))
+                        traceback.print_exc()
+                        break
                 
         else:
             print("No tracks added for {}".format(artistname))
@@ -130,7 +136,7 @@ def addShowsToPlaylist(shows,playlist_id,sids):
         text = ''
         
     print("Added {} to {}".format(counter,playlist_id))
-    return text
+    return retval
 
 def deletePassed(showlist,playlist_id):
     delsongs = []
@@ -175,9 +181,17 @@ def getOldText(showlist):
 
     return text
 
-        
-        
-        
+
+def writeShowsToCsv(oldshows,newshows,filename):
+    with open(filename,'w',encoding="UTF-8") as f:
+        fieldnames = ['artist','price','date','venue','songid1','songid2','deleted']
+        writer = csv.DictWriter(f,fieldnames=fieldnames)
+        writer.writeheader()
+        for show in oldshows:
+            writer.writerow(show)
+        for show in newshows:
+            writer.writerow(show)
+
 
 scope = 'user-library-read,playlist-modify-private,playlist-modify-public'
 
@@ -201,6 +215,7 @@ with open(cheapcsv,'r',encoding="UTF-8") as f:
         if row['deleted'].lower() == 'false':
             oldcheap.append(row)
 
+
 with open(expcsv,'r',encoding="UTF-8") as f:
     reader = csv.DictReader(f)
     oldexp = []
@@ -211,26 +226,18 @@ with open(expcsv,'r',encoding="UTF-8") as f:
 deletePassed(oldcheap,cheapplay)
 deletePassed(oldexp,expplay)
 
-getShows()
-removeDupes()
-
-oldtextcheap = getOldText(oldcheap)
-oldtextexp = getOldText(oldexp)
-
-
 cheapsids = [b for b in itertools.chain.from_iterable([[x['songid1'], x['songid2']] for x in oldcheap])]
 expsids = [b for b in itertools.chain.from_iterable([[x['songid1'], x['songid2']] for x in oldexp])]
 
-cheapcsvtext = addShowsToPlaylist(cheapshows,cheapplay,cheapsids)
-expcsvtext = addShowsToPlaylist(expensiveshows,expplay,expsids)
-with open(cheapcsv,'w',encoding="UTF-8") as f:
-    f.write(oldtextcheap)
-    f.write(cheapcsvtext)
+getShows()
+removeDupes()
 
 
-with open(expcsv,'w',encoding="UTF-8") as f:
-    f.write(oldtextexp)
-    f.write(expcsvtext)
+addedcheap = addShowsToPlaylist(cheapshows,cheapplay,cheapsids)
+writeShowsToCsv(oldcheap,addedcheap,cheapcsv)
+
+addedexp = addShowsToPlaylist(expensiveshows,expplay,expsids)
+writeShowsToCsv(oldexp,addedexp,expcsv)
 
 
-dumpCsvToExcel()
+#dumpCsvToExcel()

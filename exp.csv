@@ -1,73 +1,65 @@
 artist,price,date,venue,songid1,songid2,deleted
-Los Tigres del Norte,TBA,11-18-2018,Pepsi Center,0tzixmHNQfE6S6SirSToxW,19Tx1GJy2JGJP43yjZUK6u,FALSE
-Alejandro Fernandez,TBA,11-18-2018,Pepsi Center,4NUt1fcnO9aQAELBgXq3Kr,1OJkKHmXsZVKtWlECdpDAe,FALSE
-Twenty One Pilots,TBA,11-19-2018,Pepsi Center,3CRDbSIZ4r5MsZ0YwxuEkn,6cQnrSlTxhHCCiUpKrs7g3,FALSE
-Fleetwood Mac,$69.50-$199.50,12-03-2018,Pepsi Center,0ofHAoxe9vBkTCp2UQIavz,5e9TFTbltYBg2xThimr0rU,FALSE
-Justin Timberlake,$54-$254.50,01-29-2019,Pepsi Center,1LhMopPAallLeaeNutqbgS,1WkMMavIMc4JZ8cfMmxHkI,FALSE
-Elton John,$59.50-$249.50,02-06-2019,Pepsi Center,3gdewACMIVMEWVbyb8O9sY,2TVxnKdb3tqe1nhQWwwZCO,FALSE
-P!NK,$47.45-$499.95,04-01-2019,Pepsi Center,0Qh38w01QRXK6KHIv0e3hb,4VC5nFbYO4avKksJ9jN4pY,FALSE
-Travis Scott,$29.95-$89.95,12-12-2018,Pepsi Center,2xLMifQCjDGFmkHkpNLD9h,7wBJfHzpfI3032CSD7CE2m,FALSE
-Stephen Marley,$54.75-$87.50,08-26-2019,Red Rocks Amphitheatre,7wqkhV9hQtthqmeagXiTOl,5wgy309XNqFkqj8MMDquvj,False
-Rebelution,$54.75-$87.50,08-26-2019,Red Rocks Amphitheatre,0BweE3lWBMXRPWWLtLV5z8,4TyCnstYu6LGrjka5WW6ft,False
-Common Kings,$54.75-$87.50,08-26-2019,Red Rocks Amphitheatre,6DoYk3QIvkDs60S1d01vbx,0e3aRkhcCdkYN62p2PFfD3,False
-Vince Staples,$79.50-$129.50,12-04-2018,Pepsi Center,7uX3gufAoBVqKVoD3dBLLD,4uQ7wYsuL0DryknoDc11Hk,False
-Childish Gambino,$79.50-$129.50,12-04-2018,Pepsi Center,0b9oOr2ZgvyQu88wzixux9,3kxfsdsCpFgN412fpnW85Y,False
+Twenty One Pilots,TBA,11-19-2018,Pepsi Center,5HeKOKc4phmLn8e4I7EkzD,3CRDbSIZ4r5MsZ0YwxuEkn,False
+Fleetwood Mac,$69.50-$199.50,12-03-2018,Pepsi Center,0ofHAoxe9vBkTCp2UQIavz,5e9TFTbltYBg2xThimr0rU,False
+Childish Gambino,$79.50-$129.50,12-04-2018,Pepsi Center,3kxfsdsCpFgN412fpnW85Y,0b9oOr2ZgvyQu88wzixux9,False
+Vince Staples,$79.50-$129.50,12-04-2018,Pepsi Center,7uX3gufAoBVqKVoD3dBLLD,41uX0L4bro4KfKtDIIEFFe,False
+Travis Scott,$29.95-$89.95,12-12-2018,Pepsi Center,2xLMifQCjDGFmkHkpNLD9h,7wBJfHzpfI3032CSD7CE2m,False
 Disturbed,$44-$79,01-16-2019,Pepsi Center,0eZBeB2xFIS65jQHerispi,40rvBMQizxkIqnjPdEWY1v,False
 Three Days Grace,$44-$79,01-16-2019,Pepsi Center,0M955bMOoilikPXwKLYpoi,56sk7jBpZV0CD31G9hEU3b,False
 Justin Timberlake,$54-$254.50,01-28-2019,Pepsi Center,1LhMopPAallLeaeNutqbgS,1WkMMavIMc4JZ8cfMmxHkI,False
+Living Legends,$45-$125.95,02-01-2019,Red Rocks Amphitheatre,37xInDwVQ0Z01t0a5ETb8z,3NsH19RsdYXc0NPmFfjyE3,False
 De La Soul,$45-$125.95,02-01-2019,Red Rocks Amphitheatre,02vbwgCw4piXoMteswBt5I,6RBMpENxbx74lTdR5SBcaF,False
-Atmosphere,$45-$125.95,02-01-2019,Red Rocks Amphitheatre,76ZZ7dCUAEXVVHnPiXiQ2T,1WPQ1MfGc8KYi4eu0JwjlR,False
 Watsky,$45-$125.95,02-01-2019,Red Rocks Amphitheatre,0Vwfd6fxFrL3kCnZSJ9vid,1HRfk33rb6Td8NqQsZ2wC8,False
-Living Legends,$45-$125.95,02-01-2019,Red Rocks Amphitheatre,3NsH19RsdYXc0NPmFfjyE3,37xInDwVQ0Z01t0a5ETb8z,False
-2Cellos,$45-$65,02-14-2019,Pepsi Center,4jeh9ZloYVCqvQw17Dg1Mh,6KOBMsYaTl9ehUTF3NcX3c,False
+Atmosphere,$45-$125.95,02-01-2019,Red Rocks Amphitheatre,76ZZ7dCUAEXVVHnPiXiQ2T,1WPQ1MfGc8KYi4eu0JwjlR,False
+Elton John,$59.50-$249.50,02-06-2019,Pepsi Center,3gdewACMIVMEWVbyb8O9sY,2TVxnKdb3tqe1nhQWwwZCO,False
+2Cellos,$45-$65,02-14-2019,Pepsi Center,6KOBMsYaTl9ehUTF3NcX3c,4jeh9ZloYVCqvQw17Dg1Mh,False
+P!NK,$47.45-$499.95,04-01-2019,Pepsi Center,0Qh38w01QRXK6KHIv0e3hb,0oagwWkGlBoACUuKvTmqZV,False
 Stick Figure,$39.95 - $45,04-20-2019,Red Rocks Amphitheatre,3W4x7fZhMHw2pE6wyBzzF8,3D7cUXDEKLAFsoD10QRoiR,False
-Steel Pulse,$39.95 - $45,04-20-2019,Red Rocks Amphitheatre,5oZOIccY1j4HxVel0rpe9a,41hZVfnd7pqdlzvXhA7Nhl,False
 Pepper,$39.95 - $45,04-20-2019,Red Rocks Amphitheatre,1AO26gK1sI6PoFY9eUF8yV,12hIOqdMjKmYatc3fwywL7,False
+Steel Pulse,$39.95 - $45,04-20-2019,Red Rocks Amphitheatre,5oZOIccY1j4HxVel0rpe9a,41hZVfnd7pqdlzvXhA7Nhl,False
 Stick Figure,$39.95 - $45,04-20-2019,Red Rocks Amphitheatre,3W4x7fZhMHw2pE6wyBzzF8,3D7cUXDEKLAFsoD10QRoiR,False
-Ariana Grande,$34.95-$499.95,04-20-2019,Pepsi Center,4OafepJy2teCjYJbvFE60J,5OCJzvD7sykQEKHH7qAC3C,False
-The 1975,$46.95-$89.50,04-30-2019,Red Rocks Amphitheatre,0D4yVl9Pn45xW2s63MFCmT,4qjLvvBh5ZeKEPyShKRf06,False
+Ariana Grande,$34.95-$499.95,04-20-2019,Pepsi Center,2rPE9A1vEgShuZxxzR2tZH,4OafepJy2teCjYJbvFE60J,False
 No Rome,$46.95-$89.50,04-30-2019,Red Rocks Amphitheatre,4qjLvvBh5ZeKEPyShKRf06,76t8j6fcgo4rDzSQutispC,False
-Kitchen Dwellers,$42.50-$75,05-02-2019,Red Rocks Amphitheatre,6jiZaAtzNs8kn9po8V7OGD,4W8TneDnBito5F6yJLDlVy,False
-Pigeons Playing Ping Pong,$42.50-$75,05-02-2019,Red Rocks Amphitheatre,6YJNcusdf5adRMqJUaRjLt,7wfGH3RwCjxyojHKtUzqj9,False
-Twiddle,$42.50-$75,05-02-2019,Red Rocks Amphitheatre,5JQuP833AF3KdWlES7yopX,09WTQoXMDWiiPXTwOJzoIq,False
-Shpongle,$80 - $99.50,05-04-2019,Red Rocks Amphitheatre,5RNGOlGqKBawkqLfdJqiqA,0gOlANa2VJ7shYJsYg1Wvk,False
-Shpongle,$80 - $99.50,05-04-2019,Red Rocks Amphitheatre,5RNGOlGqKBawkqLfdJqiqA,0gOlANa2VJ7shYJsYg1Wvk,False
-Eric Church,$34.50-$124.50,05-10-2019,Pepsi Center,1vHeu2j2MpfMqqvcXKLtic,05ZACkzW8YbRq3eFgIfSNB,False
-Jameson Rodgers,$25.50-$50.50,05-12-2019,Red Rocks Amphitheatre,6VpH1OWblmhNa24BdLvb0d,03PTvKwCBFNGxIqvzVWHwg,False
-Lanco,$25.50-$50.50,05-12-2019,Red Rocks Amphitheatre,77a5Eu7lC3tG0Sukt2O91U,2yQZwi1P8AkkxxFhQ8rMEK,False
-Luke Combs,$25.50-$50.50,05-12-2019,Red Rocks Amphitheatre,2rxQMGVafnNaRaXlRMWPde,6xHI9KjUjYT0FPtGO8Mxa1,False
-Lucius,$40-$65,05-14-2019,Red Rocks Amphitheatre,5c3UqeP4RLHOyYR27c223t,1mXq9EHQM4hK5CzVVwRlDa,False
-Lord Huron,$40-$65,05-14-2019,Red Rocks Amphitheatre,0QZ5yyl6B6utIWkxeBDxQN,0jZO7p0nBUi9VHedWUBS9l,False
-Michael Franti & Spearhead,$47.50-$79.50,06-07-2019,Red Rocks Amphitheatre,0nnxf8p851ZR49KFnGWVsB,2UH4rbT5WrO2sDCanZI0vX,False
-Victoria Canal,$47.50-$79.50,06-07-2019,Red Rocks Amphitheatre,0lURC42VjGAjvmIi1NQLAa,033PfaPCfbVDHCEHCRKfRF,False
-Snarky Puppy,$47.50-$79.50,06-07-2019,Red Rocks Amphitheatre,68d6ZfyMUYURol2y15Ta2Y,1BWsQm7kOBjK2aSFYg5HQZ,False
-Debbie Gibson,$29.95-$199.95,06-07-2019,Pepsi Center,6PMDILZiYo4YzMBbE0dGK9,0KhiesN7gLBPEQhKsBmrI1,False
-Naughty by Nature,$29.95-$199.95,06-07-2019,Pepsi Center,1w29UTa5uUvIri2tWtZ12Y,6Kp8tQd95YPSrSUTkll2Of,False
-Salt-N-Pepa,$29.95-$199.95,06-07-2019,Pepsi Center,0TT7wJiEYD5GAeJfSR1ETX,0Pu71wxadDlB8fJXfjIjeJ,False
-New Kids on the Block,$29.95-$199.95,06-07-2019,Pepsi Center,1cy5US2dffz6QGBAIzOGkq,6J6RWKCPN5RFKHUKEUFjxS,False
-Tiffany,$29.95-$199.95,06-07-2019,Pepsi Center,4uvjOKsp7mSjrDhWdkLPBY,5jzDnEoTtwzvJfvVx52rDC,False
-Carrie Underwood,$49.50-$99.50,09-16-2019,Pepsi Center,0ZUo4YjG4saFnEJhdWp9Bt,4XWnHzCRfRjaHRsTNeh3WR,False
-Runaway June,$49.50-$99.50,09-16-2019,Pepsi Center,40p6WybX0YvcLdMlLja3oL,7gC5I5G9WDMR2Nc6wyNMvV,False
-Maddie & Tae,$49.50-$99.50,09-16-2019,Pepsi Center,6GRfCWffkEG93zyUJ1kGaM,1kFpL1itkwkdhO6kcmNJra,False
-Jason Isbell and the 400 Unit,$40-$65,09-17-2019,Red Rocks Amphitheatre,250RLekaiL1q9qZer975Eg,7r5X8KL8y0CpZZErtmOmNo,False
-David Crosby,$40-$65,09-17-2019,Red Rocks Amphitheatre,0O87QQVWgCkkXAfrhsal55,44CcC1HCs4ch9XZDSlaumX,False
+The 1975,$46.95-$89.50,04-30-2019,Red Rocks Amphitheatre,0D4yVl9Pn45xW2s63MFCmT,4qjLvvBh5ZeKEPyShKRf06,False
 Car Seat Headrest,$49.95-$89.50,05-01-2019,Red Rocks Amphitheatre,2os0aK782bakCPmjow0SU0,1EALzILzmIPtRIvYyo6Lwm,False
 Interpol,$49.95-$89.50,05-01-2019,Red Rocks Amphitheatre,7h4RBE1rGeHMoU7722HGVY,6B182GP3TvEfmgUoIMVUSJ,False
 Sunflower Bean,$49.95-$89.50,05-01-2019,Red Rocks Amphitheatre,6WGnIpVtdJuw5GP9KRwdmL,5KOMmEpFZmon7Mnpkan3RZ,False
+Pigeons Playing Ping Pong,$42.50-$75,05-02-2019,Red Rocks Amphitheatre,6YJNcusdf5adRMqJUaRjLt,7wfGH3RwCjxyojHKtUzqj9,False
+Kitchen Dwellers,$42.50-$75,05-02-2019,Red Rocks Amphitheatre,6jiZaAtzNs8kn9po8V7OGD,4W8TneDnBito5F6yJLDlVy,False
+Twiddle,$42.50-$75,05-02-2019,Red Rocks Amphitheatre,5JQuP833AF3KdWlES7yopX,09WTQoXMDWiiPXTwOJzoIq,False
+Shpongle,$80 - $99.50,05-04-2019,Red Rocks Amphitheatre,5RNGOlGqKBawkqLfdJqiqA,0gOlANa2VJ7shYJsYg1Wvk,False
+Shpongle,$80 - $99.50,05-04-2019,Red Rocks Amphitheatre,5RNGOlGqKBawkqLfdJqiqA,0gOlANa2VJ7shYJsYg1Wvk,False
 Vulfpeck,$46-$75.50,05-09-2019,Red Rocks Amphitheatre,1DrlLvlYd1FIjNavRm6NdX,48wH8bAxvBJO2l14GmNLz7,False
 Cory Henry,$46-$75.50,05-09-2019,Red Rocks Amphitheatre,7ajLjnOt7dbDVr59x9xsv6,1ZZeTJA78VzNIIEmQP2RoU,False
 Khruangbin,$46-$75.50,05-09-2019,Red Rocks Amphitheatre,4AKUOaCRcoKTFnVI9LtsrN,2OQ1V0e2O56AeIo4ywuYKF,False
+Eric Church,$34.50-$124.50,05-10-2019,Pepsi Center,05ZACkzW8YbRq3eFgIfSNB,1vHeu2j2MpfMqqvcXKLtic,False
+Lanco,$25.50-$50.50,05-12-2019,Red Rocks Amphitheatre,77a5Eu7lC3tG0Sukt2O91U,2yQZwi1P8AkkxxFhQ8rMEK,False
+Jameson Rodgers,$25.50-$50.50,05-12-2019,Red Rocks Amphitheatre,6VpH1OWblmhNa24BdLvb0d,03PTvKwCBFNGxIqvzVWHwg,False
+Luke Combs,$25.50-$50.50,05-12-2019,Red Rocks Amphitheatre,2rxQMGVafnNaRaXlRMWPde,698eQRku24PIYPQPHItKlA,False
+Lord Huron,$40-$65,05-14-2019,Red Rocks Amphitheatre,0QZ5yyl6B6utIWkxeBDxQN,0jZO7p0nBUi9VHedWUBS9l,False
+Lucius,$40-$65,05-14-2019,Red Rocks Amphitheatre,5c3UqeP4RLHOyYR27c223t,1mXq9EHQM4hK5CzVVwRlDa,False
 Bear Grillz,$39.95/$99,05-18-2019,Red Rocks Amphitheatre,7K1DTca14q8b4FzVGVjuM4,5Mig9CooXdPPvBV5zflLHc,False
 Said the Sky,$39.95/$99,05-18-2019,Red Rocks Amphitheatre,04amRUbvDaUMmE9U4Vs48E,2oL0HIuo0cxIycDtJWbpuN,False
 Adventure Club,$39.95/$99,05-18-2019,Red Rocks Amphitheatre,6D1kEYqdY4D3okAOfeKouI,3NAGKEkJN7cUTaIYqFnF8l,False
-Lucero,$42-$55,05-24-2019,Red Rocks Amphitheatre,4wyjvWBoDV8DwtLwNkYZrn,2PfxuxTsQpiqFBaN5id09z,False
 The Devil Makes Three,$42-$55,05-24-2019,Red Rocks Amphitheatre,7FqrsV0vBwNiQNQI6jfzni,5fuON606j1hkPGJhFMwerY,False
+Lucero,$42-$55,05-24-2019,Red Rocks Amphitheatre,4wyjvWBoDV8DwtLwNkYZrn,2PfxuxTsQpiqFBaN5id09z,False
 The Infamous Stringdusters,$55.50-$109.50,05-29-2019,Red Rocks Amphitheatre,2FQSGNFGue5t8M4q0NyB3J,0VWLyUPivk937OzZC4KjZA,False
-The Avett Brothers,$68.50-$99.50,07-05-2019,Red Rocks Amphitheatre,7CEV9VwA8XO9wwxTXgYKvY,6XMYnm4OTEysN8blzqiCL9,False
-Lake Street Dive,$68.50-$99.50,07-05-2019,Red Rocks Amphitheatre,7BDbyDs5FUmnh955RABFd7,0jCe45cYIc6NXedmbIKy0Q,False
+Victoria Canal,$47.50-$79.50,06-07-2019,Red Rocks Amphitheatre,0lURC42VjGAjvmIi1NQLAa,6jUqEpqVL5zqi3oxsykJz5,False
+Snarky Puppy,$47.50-$79.50,06-07-2019,Red Rocks Amphitheatre,68d6ZfyMUYURol2y15Ta2Y,1BWsQm7kOBjK2aSFYg5HQZ,False
+Michael Franti & Spearhead,$47.50-$79.50,06-07-2019,Red Rocks Amphitheatre,0nnxf8p851ZR49KFnGWVsB,2UH4rbT5WrO2sDCanZI0vX,False
+Naughty by Nature,$29.95-$199.95,06-07-2019,Pepsi Center,1w29UTa5uUvIri2tWtZ12Y,6Kp8tQd95YPSrSUTkll2Of,False
+Debbie Gibson,$29.95-$199.95,06-07-2019,Pepsi Center,6PMDILZiYo4YzMBbE0dGK9,0KhiesN7gLBPEQhKsBmrI1,False
+Salt-N-Pepa,$29.95-$199.95,06-07-2019,Pepsi Center,0TT7wJiEYD5GAeJfSR1ETX,0Pu71wxadDlB8fJXfjIjeJ,False
+New Kids on the Block,$29.95-$199.95,06-07-2019,Pepsi Center,1cy5US2dffz6QGBAIzOGkq,6J6RWKCPN5RFKHUKEUFjxS,False
+Tiffany,$29.95-$199.95,06-07-2019,Pepsi Center,4uvjOKsp7mSjrDhWdkLPBY,5jzDnEoTtwzvJfvVx52rDC,False
 Nicole Atkins,$68.50-$99.50,07-05-2019,Red Rocks Amphitheatre,2iGbLTqpJYeH3tMWuQ8I1z,0Bq7F3YMrblsLPZQPZOshD,False
-Weird Al Yankovic,$49.95-$90,08-01-2019,Red Rocks Amphitheatre,60R2v9lheAu3lwZwAFxMZK,5r96TaQquRrlo3Ym3ZlSL2,False
+Lake Street Dive,$68.50-$99.50,07-05-2019,Red Rocks Amphitheatre,7BDbyDs5FUmnh955RABFd7,0jCe45cYIc6NXedmbIKy0Q,False
+The Avett Brothers,$68.50-$99.50,07-05-2019,Red Rocks Amphitheatre,7CEV9VwA8XO9wwxTXgYKvY,6XMYnm4OTEysN8blzqiCL9,False
+"""Weird Al"" Yankovic",$49.95-$90,08-01-2019,Red Rocks Amphitheatre,60R2v9lheAu3lwZwAFxMZK,5r96TaQquRrlo3Ym3ZlSL2,False
 Backstreet Boys,$29-$400,08-08-2019,Pepsi Center,47BBI51FKFwOMlIiX6m8ya,35o9a4iAfLl5jRmqMX9c1D,False
 Old Dominion,$39.95-$65.50,09-11-2019,Red Rocks Amphitheatre,2A69wys3S9uiPSmn6UZWJn,33471tzU1VghDg9zNgGRpz,False
-Weird Al Yankovic,$49.95-$90,08-01-2019,Red Rocks Amphitheatre,60R2v9lheAu3lwZwAFxMZK,5r96TaQquRrlo3Ym3ZlSL2,False
-"Weird Al" Yankovic,$49.95-$90,08-01-2019,Red Rocks Amphitheatre,60R2v9lheAu3lwZwAFxMZK,5r96TaQquRrlo3Ym3ZlSL2,False
+Carrie Underwood,$49.50-$99.50,09-16-2019,Pepsi Center,0ZUo4YjG4saFnEJhdWp9Bt,4XWnHzCRfRjaHRsTNeh3WR,False
+Maddie & Tae,$49.50-$99.50,09-16-2019,Pepsi Center,6GRfCWffkEG93zyUJ1kGaM,1kFpL1itkwkdhO6kcmNJra,False
+Runaway June,$49.50-$99.50,09-16-2019,Pepsi Center,40p6WybX0YvcLdMlLja3oL,7gC5I5G9WDMR2Nc6wyNMvV,False
+David Crosby,$40-$65,09-17-2019,Red Rocks Amphitheatre,0O87QQVWgCkkXAfrhsal55,44CcC1HCs4ch9XZDSlaumX,False
+Jason Isbell and the 400 Unit,$40-$65,09-17-2019,Red Rocks Amphitheatre,250RLekaiL1q9qZer975Eg,7r5X8KL8y0CpZZErtmOmNo,False
