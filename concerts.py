@@ -28,6 +28,8 @@ import copy
 import json
 import csv
 import openpyxl
+import itertools
+
 def dumpCsvToExcel():
 
     wb = openpyxl.Workbook()
@@ -93,7 +95,7 @@ def getShows():
     expensiveshows = sorted(expensiveshows,key=lambda x: x['date'])
 
 
-def addShowsToPlaylist(shows,playlist_id):
+def addShowsToPlaylist(shows,playlist_id,sids):
     text = ""
     counter = 0
     for show in shows:
@@ -105,6 +107,10 @@ def addShowsToPlaylist(shows,playlist_id):
                 top_songs = sp.artist_top_tracks(item['uri'])['tracks']
                 if len(top_songs) >= 2:
                     addsongs = [top_songs[0]['id'],top_songs[1]['id']]
+                    for song in addsongs:
+                        if song in sids:
+                            print("Song already in playlist, skipping")
+                            break
                     sp.user_playlist_add_tracks(creds['username'],playlist_id,addsongs)
                     entry = copy.deepcopy(show)
                     entry['date'] = entry['date'].strftime('%m-%d-%Y')
@@ -212,8 +218,11 @@ oldtextcheap = getOldText(oldcheap)
 oldtextexp = getOldText(oldexp)
 
 
-cheapcsvtext = addShowsToPlaylist(cheapshows,cheapplay)
-expcsvtext = addShowsToPlaylist(expensiveshows,expplay)
+cheapsids = [b for b in itertools.chain.from_iterable([[x['songid1'], x['songid2']] for x in oldcheap])]
+expsids = [b for b in itertools.chain.from_iterable([[x['songid1'], x['songid2']] for x in oldexp])]
+
+cheapcsvtext = addShowsToPlaylist(cheapshows,cheapplay,cheapsids)
+expcsvtext = addShowsToPlaylist(expensiveshows,expplay,expsids)
 with open(cheapcsv,'w',encoding="UTF-8") as f:
     f.write(oldtextcheap)
     f.write(cheapcsvtext)
